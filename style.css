@@ -62,7 +62,7 @@ button {
     padding: 10px 20px;
     border-radius: 10px;
     background-color: var(--orange);
-    color: #000000;
+    color: #ffffff;
     border-color: var(--orange);
     font-size: 18px;
     transition: 200ms transform;
