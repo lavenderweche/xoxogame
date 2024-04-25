@@ -88,23 +88,13 @@ In the future, I would like to implement more features. See below.
 
 ### CSS Validation
 
+**style.css results**
 ![alt text](<CSS validator results.png>)
 
 ### HTML Validation
 
-
-If you only have one HTML file for your project, you only need to run this once for your deployed url, but if you have different files even for a thankyou or 404, run it by direct input per file or by deployed url per file.
-
-- include a screenshot for each HTML file with the Blue Nu Html checker down to the blue checking complete bit. It's ok to have info and warnings. 
-- You may need a scrolling screenshot to capture this one. I tend to use the [GoFullPage extension in chrome](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl):
-
-[HTML Validator](https://validator.w3.org/)
-
-**index.html**
-![img.png](documentation/images/index-html-validation.png)
-
-**404.html**
-![img.png](documentation/images/404-html-validation.png)
+**index.html results**
+![alt text](<HTML validator results.png>)
 
 ## Compatibility and Responsive Testing
 🚨**Required** 
@@ -115,90 +105,10 @@ I ensured my site was worked well, and looked nice on a variety of devices & bro
 
 | TOOL / Device                 | BROWSER     | OS         | SCREEN WIDTH  |
 |-------------------------------|-------------|------------|---------------|
-| real phone: motog6            | chrome 78   | android 8  | XS 360 x 640  |
-| browser stack: iPhone5s       | safari  13  | iOs        | XS 320 x 568  |
-| dev tools emulator: pixel 2   | firefox  69 | android 8  | SM 411 x 731  |
-| browserstack: iPhone 10x      | Chrome 78   | iOs 11     | SM 375 x 812  |
-| browserstack: nexus 7 - vert  | Chrome 78   | android 7  | M 600 x 960   |
-| real tablet: ipad mini - vert | safari  13  | iOs 6      | M 768 x 1024  |
-| browserstack: nexus 7 - horiz | firefox 69  | android 7  | LG 960 x 600  |
-| chrome emulator: ipad - horiz | safari 13   | iOs        | LG 1024 x 768 |
+| browser stack: iPhone14 pro  |safari  13    | iOs        | XS 320 x 568  |
 | browserstack windows PC       | Chrome 78   | windows 10 | XL 1920 x 946 |
 | real computer: mac book pro   | safari 12.1 | Mohave     | XL 1400 x 766 |
-| browserstack windows pc       | IE Edge 88  | windows 10 | XL 1920 x 964 |
 
-
-🚀 **merit & beyond**
-Document why you chose the devices:
-
-1. Visit https://gs.statcounter.com/browser-market-share to figure out the most popular browsers & operating system combos seen across the web for the geographic region, and platform(s) and screen sizes you expect your users to belong to. 
-
-2. Include a sentence about why you chose the combinations you did.
-
-3. Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
-
-4. if you can't find the browser/device/OS combinations you want on Browserstack with your GitHub student webpack (or you didn't activate that in time), note what you'd ideally test on then what you ended up testing on as a compromise. 
-
-5. Build a table to summarize the choices you made [markdown table generator](https://www.tablesgenerator.com/markdown_tables)
-
-The combinations above were chosen because of the following information I gathered  from [ga.statcounter.com]( https://gs.statcounter.com/browser-market-share) for the US from Aug-Oct 2021:
-**browser Version Market Share**:
-  - safari iphone: 26.32%
-  - chrome for android: 21.32%
-  - Chrome 105.0: 15.77%
-  - Chrome 104.0: 6.28%
-  - Edge 105: 4.99%
-  - Safari 15.6 3.76%
-**browser Market Share**
-  - chrome: 50.28%
-  - Safari: 34.65%
-  - Edge: 6.37%
-  - Firefox: 3.52%
-  - Samsung Internet: 2.04%
-  - Opera: 0.89%
-**platform breakdown**
-  - mobile: 51.26%
-  - desktop: 45.73%
-  - tablet: 2.97%
-  - console: 0.03%
-
-## Manual Testing
-🚨**Required** 
-
-For any scenarios that have not been automated, test the user stories/features manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios in markdown such as:
-
-**Manual Testing For Contact Form**
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-Or you can use markdown check boxes and write them up per feature:
-
-**Manual Testing For Contact Form**
-- [x] try to submit 
-- [x] Try to submit the empty form and verify that an error message about the required fields appears
-- [x] Try to submit the form with an invalid email address and verify that a relevant error message appears
-- [x] Try to submit the form with all inputs valid and verify that a success message appears.
-- [x] no console errors
-- [x] submit goes to code institute data dump page in new tab
-- [x] looks good on mobile (one column)
-- [x] looks good on tablet (two columns)
-- [x] looks good on desktop (two columns but not SUPER HUGE)
-
-Or you can use a spreadsheet
-    
-Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/1vc1IVL-ydQwWeWMqnk_GRox6HE6qxDLpchGse8Crayo/edit#gid=296578096) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
-
-It's ok to spot check specific functionality across devices and browsers but each page should be viewed as a whole for each device/browser combo at least once.
-
-A quick way to check if items are exceeding the screen width of a project is to run this javascript in the console for various screen emulations:
-
-```
-var docWidth = document.documentElement.offsetWidth;
-[].forEach.call(document.querySelectorAll('*'),function(el){if(el.offsetWidth > docWidth){console.log(el);}});
-```
 
 ## Defect Tracking
 🚨**Required** 
@@ -211,60 +121,19 @@ Here's a quick [overview of creating GitHub issues](Defects.md)
 
 You can also just bullet point them here, or create a google spreadsheet and link to that here.
 
-## Defects of Note
-🚀 **merit & beyond**
-
-Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and link to them directly here. The accessors really like to know the struggle is real and that by doing this you picked up more skills.
-
 
 ## Outstanding Defects
-🚨**Required** 
+ 
+- There is no 404 page error
+- There are certain areas on the box that the user should click on for the letter to appear.
 
-It's ok to not resolve all the defects you found as long as:
-- it does not impact a user from completing a vital function on the website
-- it only affects a very small subset of users
-- is an extreme edge case that very few users would try
-- there is an open issue against a framework, browser or technology used
-
-If you know of something that isn't quite right, create an issue and link to it here and explain why you chose not to resolve it. 
-
-Sometimes it's as simple, word wrapping issue that makes the site look odd at a certain screensize that you just didn't have time to fix due to the impending deadline it's best to mention it but note why you allowed it to go live: "Yes it looks odd, but it doesn't impact core functionality of the site." than to let the accessors think you didn't notice it. 
-
-## Core Web Vitals
-🚀 **merit & beyond**
-SEO is greatly impacted by your core web vitals. The readout from https://web.dev/measure/ which is essentially a lighthouse audit gives your site scores in 4 categories. Ideally you want your site to be in the green for all 4 scores. web.dev has dedicated servers to test deployed sites without extensions that skew the results, so it's best to get results from this site.
- You should talk about the results for each section pay attention to 
 
 
 ## Accessibility Testing
-🚨**Required** 
-
-Accessibility testing is aimed to make sure that those with visual or physical disabilities can still browse your website. Some users have had strokes or accidents that make it difficult to use a mouse, so they use keyboard keys to tab through sites. Others use screen readers that rely on HTML tags to help the user navigate quickly through the site to find information they want, others have color blindness or contrast issues. It's the law to provide services 
-Here's a [site](https://www.w3.org/WAI/fundamentals/accessibility-intro/#:~:text=Accessibility%20is%20Important%20for%20Individuals%2C%20Businesses%2C%20Society,-The%20Web%20is&text=That%20is%2C%20the%20accessibility%20barriers,older%20people) where you can learn more about accessibility and the internet.
+I did not get the time to perform any accessibility tests but I will make sure to get this done after the submission is graded to improve the game.
 
 ### Accessibility Audits
-🚨**Required** 
-
-Accessibility audits run through the HTML and determine if the parts of the WCAG (web content accessibility guidelines ) that are implemented through HTML tags and attributes are present. They can do some checking for low vision/contrast stuff too.
-
-You should run your deployed website pages through  at least on auditing tool. lighthouse's audit to check performance, accessibility, best practices and SEO scores. You should aim to get 85 or higher score on accessibility. 
-
-**You should fix issues associated with:**
-- contrast 
-- aria labels
-- alt text
-- large images
-- skewed images
-
-**Lighthouse**
-https://web.dev/measure/  If you have lower scores, read the report and follow the links to address the flagged issues. You can run this tool from Chrome Dev Tools too against your local machine, but chrome extensions can sometimes give you missing alt text on things like the grammarly plug in tracking pixel.
-
-You want a score in the green for accessibility and should look at ways to get it to 100.
-
-
-
-**[WAVE chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US) extension**
-Wave is developed by webaim.org and does a bit better at contrast issues and uses 2.1 guidelines
+I did not get the time to perform any accessibility tests but I will make sure to get this done after the submission is graded to improve the game.
 
 **Contrast Checkers**
 - https://webaim.org/resources/contrastchecker/
