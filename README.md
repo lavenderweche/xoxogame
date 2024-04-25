@@ -1,8 +1,27 @@
+- [OVERVIEW](#overview)
+- [X AND O GAME](#x-and-o-game)
+  * [Live Site](#live-site)
+  * [Repository](#repository)
+  * [Author](#author)
+  * [Target Audience](#target-audience)
+  * [Project Goals](#project-goals)
+  * [Design Choices and Colors](#design-choices-and-colors)
+- [Features](#features)
+  * [Implemented Features](#implemented-features)
+  * [Future Features](#future-features)
+  * [Testing](#testing)
+    + [CSS Validation](#css-validation)
+    + [HTML Validation](#html-validation)
+  * [Compatibility and Responsive Testing](#compatibility-and-responsive-testing)
+  * [Outstanding Defects](#outstanding-defects)
+  * [Accessibility Testing](#accessibility-testing)
+    + [Accessibility Audits](#accessibility-audits)
+- [Credits and Content](#credits-and-content)
+
 # OVERVIEW
 
 This is a game of X and Os or also known as Tic Tac Toe. The simple game has been created for my JavaScript module project submission. 
 It consists of two players who have to get 3 X's or O's in a row (including a diagonal row), with X being the first player. 
-
 
 # X AND O GAME
 This is a game of X and Os or also known as Tic Tac Toe. The simple game has been created for my JavaScript module project submission. 
@@ -23,15 +42,6 @@ The link to the repository is below
 
 Lavender Nelly Nyakowa
 
-## Table of Contents
-🚀 **merit & beyond**
-
-Generate after readme is complete by copying and pasting your readme from this point & below into this tool:
-- [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/)
-**NOTE:** It does have some bugs if you have dashes or trailing spaces in your headers
-
-# UX
-
 ## Target Audience
 This is a very simple game to be used to pass time. You could be on a bus, train or in the park looking for something to keep you busy, and this would be the perfect game for that. It takes a very short time to play it but, would definitely keep you busy for a while. 
 It can also be used by children to keep them busy and used to develop their brains by trying to make them think logically so as to win the game.
@@ -40,15 +50,6 @@ It can also be used by children to keep them busy and used to develop their brai
 
 - This site presents a game of X and O
 - I am currently trying to build my HTML, CSS and JavaScript skills and the game contained a combination of all.
-
-### Site User Stories
-🚀 **merit & beyond**
-
-### Website Owner Stories
-🚀 **merit & beyond**
-
-### Developer Stories
-🚀 **merit & beyond**
 
 ## Design Choices and Colors 
 
@@ -66,7 +67,6 @@ The game does not require much when it comes to the positioning, so I ensured th
 - **Results:** when one of the player wins, the results are displayed on the screen.
 
 ## Implemented Features
-🚨**Required** 
 
 The implemented features are more or less the same as the ones above under the features section. The focus for this game was mostly on the JavaScript logic so most of the UI features from the other HTML and CSS modules were not implemented in this. 
 
@@ -97,7 +97,6 @@ In the future, I would like to implement more features. See below.
 ![alt text](<HTML validator results.png>)
 
 ## Compatibility and Responsive Testing
-🚨**Required** 
 
 Minimally you should use dev tools and emulators to try to test you site on various screen sizes and browsers and note it in a table:
 
@@ -108,18 +107,6 @@ I ensured my site was worked well, and looked nice on a variety of devices & bro
 | browser stack: iPhone14 pro  |safari  13    | iOs        | XS 320 x 568  |
 | browserstack windows PC       | Chrome 78   | windows 10 | XL 1920 x 946 |
 | real computer: mac book pro   | safari 12.1 | Mohave     | XL 1400 x 766 |
-
-
-## Defect Tracking
-🚨**Required** 
-
-Try to create issues in real time as it better reflects the daily life of a developer.
-
-The easiest way to track defects is by using GITHUB's Issues to track these as it's really easy to copy/paste screenshots in and then write up how you closed them. At this stage you don't need a custom template or labels, that comes in P4.
-
-Here's a quick [overview of creating GitHub issues](Defects.md)
-
-You can also just bullet point them here, or create a google spreadsheet and link to that here.
 
 
 ## Outstanding Defects
@@ -139,91 +126,11 @@ I did not get the time to perform any accessibility tests but I will make sure t
 - https://webaim.org/resources/contrastchecker/
 - https://color.a11y.com/
 
-### Keyboard Navigation
-🚀 **merit & beyond**
+# Credits and Content
+This project completion would not have been possible if it was not for the following sites and videos that I used for my reference and to get ideas. 
 
-Another way to accessibility test your site is to try to click on the browser URL and see what happens if you use the tab, arrow and enter keys. Does it work well or does the user get stuck? Check this in a couple browsers as the focus & active outlines are typically styled by the browser
-
-The expected results for various keyboard entries and field types can be found [here](https://webaim.org/techniques/keyboard/#testing)
-
-You can take a video of this testing if you want and convert it to a gif and paste that into your readme. Record something to yourself in a Slack direct message, then download it. Then you can use https://cloudconvert.com/mp4-to-gif to convert the mp4 to a gif and just paste it into the readme via GiHu, and it'll resolve itself.
-
-
-### Chrome Vox Reader
-🚀 **merit & beyond**
-
-If you are really ambitious, you can use the [VoxReader](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) extension in chrome to see what your site sounds like on a screen reader. It really drives home the need for good aria-labels & semantic HTML.
-
-# Technologies Used
-🚀 **merit & beyond**
-
-This section just summarizers tools and programming languages you used.
-
-## Languages
-🚀 **merit & beyond**
-
--write bullet points for the languages you used (HTML & CSS)
-
-## Frameworks, Libraries & Programs Used
-🚀 **merit & beyond**
-
-List out the tools you used with a link and a short description (this helps others figure out where to get the bonus points & reminds you what you used for your next project
-- Balsamiq
-- Coolors.co
-- fontawesome
-- gitpod
-- github
-- google fonts
-- font awesome
-- amiresponsive
-- table of contents creator
-- markdown table generator
-
-
-# Deployment
-🚨**Required** 
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages).
-
--Enumerate steps and use screenshots to make the instructions are clear.
-
-You may want to re-watch the [initial deployment in gitpod video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/9b06129195c64fada6783de9cfe82d60/) when writing up this section.
-
-## Deploy to GitHub Pages
-🚨**Required** 
-
-Write out steps you would take and test them to deploy your code to GitHub Pages, include screenshots if you think they would make the process easier.
-
-## Forking The Repository
-🚀 **merit & beyond**
-
-A fork creates a completely independent copy of Git repository. In contrast to a fork, a Git clone creates a linked copy that will continue to synchronize with the target repository, so if you want to ensure other people don't commit to your public repo, you might want to tell them to fork the repository :) 
-
-## Run Locally With GitPod
-🚀 **merit & beyond**
-
-Enumerate and write the steps of how to run a project locally via gitPod. Include Screenshots to maximize the impact of the instructions.
-
-# Credits
-🚨**Required** 
-
-To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc. that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things. Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did.  The accessors expect something here, there is no way you didn't have to get help on making such a nice project.
-
-## Content
-🚨**Required** 
-
-Use bullet points to list out sites you copied text from and cross-reference where those show up on your site. If you truly are an expert in the content you provided, say that due to your exposure/experience of the topic covered, you created the content on your own.
-
-## Media
-🚨**Required** 
-
-Make a list of sites you used images, icons & youtube, & audio files from. If you used several sites try to match up each image to the correct site. This includes attribution for icons if they came from font awesome or other sites, give them credit. If you took the images yourself, give yourself credit.
-
-You should not be using images taken from copyrighted sites, but only royalty free ones. Try typing `!copyright` in slack and see what help it gives you for this topic.
-
-## Acknowledgments
-🚀 **merit & beyond**
-
-This is the section where you refer to code examples, mentors, blogs, stack overflow answers and videos that helped you accomplish your end project. Even if it's an idea that you updated you should note the site and why it was important to your completed project.
-
-If you used a CodeInstitute Example project as a starting point. Make note of that here.
+-  https://w3schools.com
+-  The code institute videos
+-  https://www.youtube.com/watch?v=AnmwHjpEhtA&t=16s
+-  https://www.youtube.com/watch?v=al_AgC2NSCo
+-  https://www.youtube.com/watch?v=oZrp3Atkz18&t=507s
