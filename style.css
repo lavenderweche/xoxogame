@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: #d55e00;
+    --winning-blocks: #2d414b;
+}
+
+body {
+    color: var(--orange);
+    font-family: 'Segoe UI', cursive;
+}
+h1 {
+    font-size: 54px;
+    text-transform: uppercase;
+}
+
+.container {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+/*The whole game "box" properties*/
+#xo_entries {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+/* The boxes that the user will use for entries of X and O*/
+.box {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--orange);
+    font-size: 120px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+
+/* These remove the border right on the 3rd box and from the 7th box, 
+removes the border bottom to have the real tic tac toe game look */
+.box:nth-child(3n) {
+    border-right: none;
+}
+.box:nth-child(6) ~ .box {
+    border-bottom: none;
+}
+
+/* The button properties with a hover effect*/
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--orange);
+    color: #000000;
+    border-color: var(--orange);
+    font-size: 18px;
+    transition: 200ms transform;
+    font-weight: 600;
+}
+button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+}
