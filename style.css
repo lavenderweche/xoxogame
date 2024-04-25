@@ -36,7 +36,7 @@ h1 {
 }
 /* The boxes that the user will use for entries of X and O*/
 .box {
-    height: 50px;
+    height: 100px;
     width: 100px;
     display: flex;
     align-items: center;
